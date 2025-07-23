@@ -2,26 +2,48 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
 
-# URL
+# 网站标题
+title: Hexo123
+# 网站副标题
+subtitle: '副标题'
+# 网站描述
+description: '网站描述'
+# 网站的关键词。 支持多个关键词。
+keywords:
+# 您的名字
+author: Song
+# 网站使用的语言。 使用 2 个字母的 ISO-639-1 代码，或 它的变体。 默认为 en。
+language:
+# 网站时区。 Hexo 默认使用您电脑的时区。 请参考 时区列表 进行设置，如 America/New_York, Japan, 和 UTC 。 一般的，对于中国大陆地区可以使用 Asia/Shanghai。
+timezone: 'Asia/Shanghai'
+
+
+# 网址, 必须以 http:// 或 https:// 开头
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://woaichikaorou.com/
+# 网站根目录
+# root
+# 文章的 永久链接 格式
 permalink: :year/:month/:day/:title/
+# 永久链接中各部分的默认值
 permalink_defaults:
+# 改写 permalink 的值来美化 URL
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
+  trailing_html: true # 是否在永久链接中保留尾部的 .html, 设置为 false 时去除 (对尾部的 index.html无效)
+# 如果您的网站存放在子目录中，例如 http://example.com/blog，则请将您的 url 设为 http://example.com/blog 并把 root 设为 /blog/。
+#  例如：
+# e.g. page.permalink is http://example.com/foo/bar/index.html
+#pretty_urls:
+#  trailing_index: false
+# becomes http://example.com/foo/bar/
+
 
 # Directory
+# Source 文件夹 存储内容的位置
 source_dir: source
+# Public 文件夹 生成静态站点的位置
 public_dir: public
 tag_dir: tags
 archive_dir: archives
@@ -29,6 +51,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -55,6 +78,7 @@ prismjs:
   line_number: true
   tab_replace: ''
 
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -64,10 +88,12 @@ index_generator:
   per_page: 10
   order_by: -date
 
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
