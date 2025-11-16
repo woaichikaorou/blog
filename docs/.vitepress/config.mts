@@ -13,7 +13,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '碎碎念', link: '/2025/2025-07-01-hello-woaichikaorou' },
       {
-        text: 'Dropdown Menu',
+        text: '编程',
         items: [
           { text: 'Item A', link: '/item-1' },
           { text: 'Item B', link: '/item-2' },
