@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+// https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
   title: "我爱吃烤肉",
   description: "我爱吃烤肉的博客",
@@ -8,39 +8,36 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // https://vitepress.dev/zh/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
       { text: '碎碎念', link: '/2025/2025-07-01-hello-woaichikaorou' },
       {
         text: '编程',
         items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
-        ]
-      },
-      {
-        text: 'Dropdown Menu',
-        items: [
           {
-            text: 'Dropdown Menu',
-            // 也可以省略标题
+            text: '开发工具',
             items: [
-              { text: 'Section A Item A', link: '...' },
-              { text: 'Section B Item B', link: '...' }
+              { text: 'IntelliJ IDEA', link: '...' },
+              { text: 'Visual Studio Code', link: '...' }
             ]
           },
           {
-            text: 'Dropdown Menu',
-            // 也可以省略标题
+            text: '环境安装',
             items: [
-              { text: 'Section A Item A', link: '...' },
-              { text: 'Section B Item B', link: '...' }
+              { text: 'Java', link: '...' },
+              { text: 'Python', link: '...' }
             ]
           }
         ]
-      }
+      },
+      {
+        text: '投资',
+        items: [
+          { text: '敬请期待', link: '...' },
+        ]
+      },
+      { text: '关于我', link: '/...' }
     ],
 
     sidebar: [
