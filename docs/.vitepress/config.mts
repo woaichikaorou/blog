@@ -37,7 +37,7 @@ export default defineConfig({
           { text: '敬请期待', link: '...' },
         ]
       },
-      { text: '关于我', link: '/...' }
+      { text: '关于我', link: '/......' }
     ],
 
     sidebar: [
