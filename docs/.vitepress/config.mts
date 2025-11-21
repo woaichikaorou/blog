@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/zh/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '碎碎念', link: '/2025/2025-07-01-nihao-woaichikaorou' },
+      { text: '碎碎念', link: '/blog/2025/2025-07-01-nihao-woaichikaorou' },
       {
         text: '编程',
         items: [
@@ -44,7 +44,7 @@ export default defineConfig({
       {
         text: '我的碎碎念',
         items: [
-          { text: '你好，我爱吃火锅', link: '/2025/2025-07-01-nihao-woaichikaorou' }
+          { text: '你好，我爱吃火锅', link: '/blog/2025/2025-07-01-nihao-woaichikaorou' }
         ]
       }
     ],
