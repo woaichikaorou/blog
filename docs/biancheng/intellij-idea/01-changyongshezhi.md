@@ -5,7 +5,7 @@ title: 常用设置
 打开设置页面。
 
 
-## 设置页面目录
+## 设置页面介绍
 - Appearance & Behavior：外观和行为
 - Keymap：快捷键
 - Editor：编辑器
