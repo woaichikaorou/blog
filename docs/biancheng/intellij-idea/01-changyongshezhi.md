@@ -2,7 +2,7 @@
 title: 常用设置
 ---
 # 常用设置
-打开设置页面快捷键：
+打开设置快捷键：
 - macOS：Command + ,
 - Windows：Ctrl + Alt + S
 
