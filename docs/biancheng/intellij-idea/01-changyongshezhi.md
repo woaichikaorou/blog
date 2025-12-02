@@ -33,7 +33,19 @@ title: 常用设置
 
 ## Keymap 快捷键
 
+### 设置 Manage Projects...
+Keymap --> Main menu --> File --> File Open Actions --> Recent Projects --> Manage Projects...
+- macOS：Control + Command + Shift + O
+- Windows：Ctrl + Alt + Shift + O
 
+![img.png](assets/01-03-01.png)
+
+### 设置 Close Tab
+Keymap --> Main menu --> Window --> Editor Tabs --> Editor Close Actions --> Close Tab
+- macOS：Command + W（默认）
+- Windows：Ctrl + W
+
+![img.png](assets/01-03-02.png)
 
 ## Editor 编辑器
 
