@@ -51,7 +51,8 @@ export default defineConfig({
         text: '我的碎碎念',
         items: [
           { text: '你好，我爱吃火锅', link: '/blog/2025/2025-07-01-nihao-woaichikaorou' },
-          { text: '一切从新开始【2026年1月总结】', link: '/blog/2026/2026-01-month-summary.md' }
+          { text: '一切从新开始【2026年1月总结】', link: '/blog/2026/2026-01-month-summary.md' },
+          { text: '春节变了【2026年2月总结】', link: '/blog/2026/2026-02-month-summary.md' },
         ]
       }
     ],
