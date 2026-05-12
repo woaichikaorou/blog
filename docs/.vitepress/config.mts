@@ -54,6 +54,7 @@ export default defineConfig({
           { text: '一切从新开始【2026年1月总结】', link: '/blog/2026/2026-01-month-summary.md' },
           { text: '春节变了【2026年2月总结】', link: '/blog/2026/2026-02-month-summary.md' },
           { text: '休息最重要【2026年3月总结】', link: '/blog/2026/2026-03-month-summary.md' },
+          { text: '又是忙碌的一个月【2026年4月总结】', link: '/blog/2026/2026-04-month-summary.md' },
         ]
       }
     ],
