@@ -56,6 +56,7 @@ export default defineConfig({
           { text: '休息最重要【2026年3月总结】', link: '/blog/2026/2026-03-month-summary.md' },
           { text: '又是忙碌的一个月【2026年4月总结】', link: '/blog/2026/2026-04-month-summary.md' },
           { text: '忙【2026年5月总结】', link: '/blog/2026/2026-05-month-summary.md' },
+          { text: '恭喜纽约【2026年6月总结】', link: '/blog/2026/2026-06-month-summary.md' },
         ]
       }
     ],
