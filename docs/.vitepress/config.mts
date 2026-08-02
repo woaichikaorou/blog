@@ -51,12 +51,12 @@ export default defineConfig({
         text: '我的碎碎念',
         items: [
           { text: '你好，我爱吃火锅', link: '/blog/2025/2025-07-01-nihao-woaichikaorou' },
-          { text: '一切从新开始【2026年1月总结】', link: '/blog/2026/2026-01-month-summary.md' },
-          { text: '春节变了【2026年2月总结】', link: '/blog/2026/2026-02-month-summary.md' },
-          { text: '休息最重要【2026年3月总结】', link: '/blog/2026/2026-03-month-summary.md' },
-          { text: '又是忙碌的一个月【2026年4月总结】', link: '/blog/2026/2026-04-month-summary.md' },
-          { text: '忙【2026年5月总结】', link: '/blog/2026/2026-05-month-summary.md' },
-          { text: '恭喜纽约【2026年6月总结】', link: '/blog/2026/2026-06-month-summary.md' },
+          { text: '一切重新开始【202601】', link: '/blog/2026/2026-01-monthly-records.md' },
+          { text: '春节变了【202602】', link: '/blog/2026/2026-02-monthly-records.md' },
+          { text: '休息最重要【202603】', link: '/blog/2026/2026-03-monthly-records.md' },
+          { text: '又是忙碌的一个月【202604】', link: '/blog/2026/2026-04-monthly-records.md' },
+          { text: '忙【202605】', link: '/blog/2026/2026-05-monthly-records.md' },
+          { text: '恭喜纽约【202606】', link: '/blog/2026/2026-06-monthly-records.md' },
         ]
       }
     ],
