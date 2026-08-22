@@ -57,6 +57,7 @@ export default defineConfig({
           { text: '又是忙碌的一个月【202604】', link: '/blog/2026/2026-04-monthly-records.md' },
           { text: '忙【202605】', link: '/blog/2026/2026-05-monthly-records.md' },
           { text: '恭喜纽约【202606】', link: '/blog/2026/2026-06-monthly-records.md' },
+          { text: '累【202607】', link: '/blog/2026/2026-07-monthly-records.md' },
         ]
       }
     ],
