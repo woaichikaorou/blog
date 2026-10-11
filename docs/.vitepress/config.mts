@@ -58,7 +58,8 @@ export default defineConfig({
           { text: '忙【202605】', link: '/blog/2026/2026-05-monthly-records.md' },
           { text: '恭喜纽约【202606】', link: '/blog/2026/2026-06-monthly-records.md' },
           { text: '累【202607】', link: '/blog/2026/2026-07-monthly-records.md' },
-          { text: '质变要来了【202608】', link: '/blog/2026/2026-08-monthly-records.md' },
+          { text: '质变【202608】', link: '/blog/2026/2026-08-monthly-records.md' },
+          { text: '下一代操作系统【202609】', link: '/blog/2026/2026-09-monthly-records.md' },
         ]
       }
     ],
